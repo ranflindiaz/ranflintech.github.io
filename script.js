@@ -7,7 +7,7 @@ const changeColor = () => {
 
 button.addEventListener('click', changeColor);
 
-texto.addEventListener("keyup", (e) => {
+texto.addEventListener('keyup', (e) => {
     if (e.keyCode === 13) {
         changeColor();
     }
