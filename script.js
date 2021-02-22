@@ -1,5 +1,5 @@
-let button = document.getElementById('myBtn');
-let texto = document.getElementById('myText');
+const button = document.getElementById('myBtn');
+const texto = document.getElementById('myText');
 
 const changeColor = () => {
     document.getElementById('caja').style.background = texto.value;
