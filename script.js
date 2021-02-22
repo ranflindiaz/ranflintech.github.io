@@ -3,7 +3,7 @@ let texto = document.getElementById('myText');
 
 const changeColor = () => {
     document.getElementById('caja').style.background = texto.value;
-    texto.value = '';
+    texto.text = '';
 }
 
 button.addEventListener('click', changeColor);
