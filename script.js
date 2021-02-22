@@ -1,8 +1,9 @@
 const button = document.getElementById('myBtn');
-const texto = document.getElementById('myText');
+let texto = document.getElementById('myText');
 
 const changeColor = () => {
     document.getElementById('caja').style.background = texto.value;
+    texto.value = '';
 }
 
 button.addEventListener('click', changeColor);
